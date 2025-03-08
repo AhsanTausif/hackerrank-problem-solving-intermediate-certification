@@ -36,5 +36,6 @@ if __name__ == '__main__':
     result = renameFile(newName, oldName)
 
     fptr.write(str(result) + '\n')
+    print('CI/CD Testing')
 
     fptr.close()
